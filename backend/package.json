@@ -1,0 +1,26 @@
+{
+  "name": "dpk-service-shop-backend",
+  "version": "1.0.0",
+  "description": "DPK Service Shop Provider API Panel Backend",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "dpk",
+    "service-shop",
+    "provider-api",
+    "backend"
+  ],
+  "author": "DPK Service Shop",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.0"
+  }
+}
